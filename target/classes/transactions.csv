@@ -1,0 +1,4 @@
+Type,Amount,Date,Description
+
+IncomeTransaction,5000.0,2025-04-06,bonous
+ExpenseTransaction,12000.0,2025-04-06,grocery
