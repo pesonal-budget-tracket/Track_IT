@@ -1,3 +1,12 @@
+com/example/budgettracker/controllers/PageController.class
+com/example/budgettracker/strategy/MonthlySummaryReportStrategy.class
 com/example/budgettracker/singleton/BudgetManager.class
+com/example/budgettracker/strategy/ReportStrategy.class
+com/example/budgettracker/model/User.class
+com/example/budgettracker/factory/UserFactory.class
+com/example/budgettracker/singleton/UserManager.class
+com/example/budgettracker/strategy/ReportGenerator.class
+com/example/budgettracker/controllers/UserController.class
+com/example/budgettracker/controllers/HomeController.class
 com/example/budgettracker/App.class
 com/example/budgettracker/controllers/BudgetController.class
