@@ -168,7 +168,6 @@
                                     <tr>
                                         <th>Date</th>
                                         <th>Type</th>
-                                        <th>Category</th>
                                         <th>Amount</th>
                                     </tr>
                                 </thead>
@@ -176,7 +175,7 @@
                                     <tr th:each="transaction : ${transactions}">
                                         <td th:text="${#dates.format(transaction.date, 'yyyy-MM-dd')}">2023-01-01</td>
                                         <td th:text="${transaction.type}">Income</td>
-                                        <td th:text="${transaction.category}">Salary</td>
+                                        
                                         <td th:class="${transaction.type.equalsIgnoreCase('income')} ? 'income' : 'expense'">
                                             <span th:text="${'₹' + #numbers.formatDecimal(transaction.amount, 1, 'COMMA', 2, 'POINT')}">₹1,000.00</span>
                                         </td>
